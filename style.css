@@ -13,12 +13,13 @@ li {
 /* Header */
 .navbar{
     background-color: #E5F9DB;
-    color: #fff;
+    /* color: #fff; */
     height: 40px;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
 .nav{
     background-color: #E5F9DB;
@@ -62,6 +63,13 @@ li {
         margin: 10px;
         color: #83764F;
      }
+     .blog img{
+        width: 300px;
+        height:auto;
+        border-radius: 5px;
+        margin: 20px;
+        
+     }
      .blog h3{
         display: flex;
         flex-direction: row;
@@ -69,6 +77,15 @@ li {
         justify-content: center;
         margin: 10px;
         color:li
+     }
+     .content{
+         display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        color: #83764F;
+
      }
 .contact{
     flex-direction: row;
@@ -88,6 +105,24 @@ li {
         
 
     }
+    .btn{
+        background-color: #83764F;
+        color: white;
+        border-radius: 5px;
+        padding: 11px;
+        margin: 10px;
+        font-size: 14px;
+
+    }
+    .btn:hover{
+        background-color: #F2E9D9;
+        color: #83764F;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        scale: 0.8;
+        }
     /* Footer */
     .footer{
         
