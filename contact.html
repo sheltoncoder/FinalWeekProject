@@ -28,45 +28,40 @@
         <div class="container">
             <div class="contact-info">
                 <h2>Contact Us</h2>
-                <form action="Contact-Us">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" name="name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone Number" name="phone">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" name="subject">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" placeholder="Message" name="message"></textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <button type="submit" class="btn">Submit</button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                <form action="Contact Form">
             </div>
         </div>
-    </section>
-    <!-- Footer -->
-        <!-- Footer -->
-        <div class="footer">
-            <footer>
-                <p>
-                    Copyright © 2023&nbsp&nbsp
-                    <i class="fa-brands fa-github">
-                        <a href="https://github.com/SheltonCoder">sheltoncoder</a></i>
-                </p>
-            </footer>
+        <!-- name -->
+        <div>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required />
         </div>
+        <!-- email -->
+        <div>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required />
+        </div>
+    
+        <!-- Message -->
+        <div>
+            <label for="message">Message</label><br />
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        </div>
+        <!-- submit -->
+        <button type="submit" class="btn">Submit</button>
+        </section>
+            <!-- Footer -->
+            <div class="footer">
+                <footer>
+                    <p>
+                        Copyright © 2023&nbsp&nbsp
+                        <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/SheltonCoder">sheltoncoder</a>
+                    </p>
+                </footer>
+            </div>
+        </section>
+    </form>
 </body>
-</html>
+   
+  

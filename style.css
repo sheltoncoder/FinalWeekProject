@@ -70,13 +70,22 @@ li {
         margin: 10px;
         color:li
      }
+.contact{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
 
+}
      
 
     .contact-info h2{
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        color: #6c796c;
+        color: #83764F;
+        margin: 10px;
+        text-align: center;
+        
 
     }
     /* Footer */
@@ -95,7 +104,7 @@ li {
     }
     footer a:hover{
     color: #A4D0A4;
-    background-color: #E5F9DB;
+    
     }
     footer p{
         font-size: 20px;
